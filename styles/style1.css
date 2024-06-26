@@ -1,0 +1,83 @@
+header {
+    background-color: rgb(37, 126, 156);
+}
+
+header h2 {
+    padding-top: 1%;
+    margin-left: 3%;
+}
+
+header h6 {
+    padding-bottom: 10px;
+    margin-left: 3%;
+}
+
+.container {
+    margin-top: 30px;
+    align-items: center;
+}
+
+.container h6 {
+    text-align: center;
+}
+.juego {
+    padding: 3%;
+    display: inline-block;
+    border: solid 1px black;
+    height: 100%;
+}
+
+.juego p {
+    text-align: center;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulos {
+    padding: 10px;
+}
+
+.subtitulo {
+    width: 200px;
+}
+
+.container2 img {
+    float: right;    
+    
+}
+
+.imgCarrito {
+    width: 100%;
+    padding: 25px;
+    background-color: transparent;
+    border: none    ;
+}
+
+.juego button {
+    width: 100%;
+    text-align: center;
+}
+
+footer {
+  
+  text-align: right;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+    position: relative;
+    right: 0;
+}
+
+.card-body {
+    float: right;
+    position: relative;
+    width: max-content;
+    height: min-content;
+}
